@@ -1,4 +1,4 @@
-# Faker.js - generate massive amounts of fake data in the browser and node.js
+## Placebo.js - generate massive amounts of fake medical data in the browser and node.js - fork of faker.js
 <img src = "http://imgur.com/KiinQ.png" border = "0">
 ## USAGE
 ### browser -
