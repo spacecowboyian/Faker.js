@@ -15,7 +15,175 @@
       var randomEmail = Faker.Internet.email(); // Kassandra.Haley@erich.biz
       var randomCard = Faker.Helpers.createCard(); // random contact card containing many properties
 ## API
-<ul><li>Name<ul><li>firstName</li><li>firstNameMale</li><li>firstNameFemale</li><li>lastName</li><li>findName</li><li>gender</li></ul></li><li>Address<ul><li>zipCode</li><li>zipCodeFormat</li><li>city</li><li>streetName</li><li>streetAddress</li><li>secondaryAddress</li><li>brState</li><li>ukCounty</li><li>ukCountry</li><li>usState</li><li>latitude</li><li>longitude</li></ul></li><li>PhoneNumber<ul><li>phoneNumber</li><li>phoneNumberFormat</li></ul></li><li>Internet<ul><li>email</li><li>userName</li><li>domainName</li><li>domainWord</li><li>ip</li><li>color</li></ul></li><li>Company<ul><li>suffixes</li><li>companyName</li><li>companySuffix</li><li>catchPhrase</li><li>bs</li></ul></li><li>Image<ul><li>avatar</li><li>imageUrl</li><li>abstractImage</li><li>animals</li><li>business</li><li>cats</li><li>city</li><li>food</li><li>nightlife</li><li>fashion</li><li>people</li><li>nature</li><li>sports</li><li>technics</li><li>transport</li></ul></li><li>Lorem<ul><li>words</li><li>sentence</li><li>sentences</li><li>paragraph</li><li>paragraphs</li></ul></li><li>Helpers<ul><li>randomNumber</li><li>randomize</li><li>slugify</li><li>replaceSymbolWithNumber</li><li>shuffle</li><li>createCard</li><li>userCard</li></ul></li><li>Tree<ul><li>clone</li><li>createTree</li></ul></li><li>Date<ul><li>past</li><li>future</li><li>between</li><li>recent</li></ul></li><li>random<ul><li>number</li><li>array_element</li><li>city_prefix</li><li>city_suffix</li><li>street_suffix</li><li>br_state</li><li>br_state_abbr</li><li>us_state</li><li>us_state_abbr</li><li>uk_county</li><li>uk_country</li><li>gender</li><li>first_name</li><li>first_name_female</li><li>first_name_male</li><li>last_name</li><li>name_prefix</li><li>name_suffix</li><li>catch_phrase_adjective</li><li>catch_phrase_descriptor</li><li>catch_phrase_noun</li><li>bs_adjective</li><li>bs_buzz</li><li>bs_noun</li><li>phone_formats</li><li>domain_suffix</li><li>avatar_uri</li></ul></li><li>definitions<ul><li>first_name_male</li><li>first_name_female</li><li>first_name</li><li>last_name</li><li>name_prefix</li><li>name_suffix</li><li>br_state</li><li>br_state_abbr</li><li>us_state</li><li>us_state_abbr</li><li>city_prefix</li><li>city_suffix</li><li>street_suffix</li><li>uk_county</li><li>uk_country</li><li>catch_phrase_adjective</li><li>catch_phrase_descriptor</li><li>catch_phrase_noun</li><li>bs_adjective</li><li>bs_buzz</li><li>bs_noun</li><li>domain_suffix</li><li>lorem</li><li>phone_formats</li><li>avatar_uri</li></ul></li></ul>
+
+- Name
+    - firstName
+    - firstNameMale
+    - firstNameFemale
+    - lastName
+    - findName
+    - gender
+- Address
+    - zipCode
+    - zipCodeFormat
+    - city
+    - streetName
+    - streetAddress
+    - secondaryAddress
+    - brState
+    - ukCounty
+    - ukCountry
+    - usState
+    - latitude
+    - longitude
+- PhoneNumber
+    - phoneNumber
+    - phoneNumberFormat
+- Internet
+    - email
+    - userName
+    - domainName
+    - domainWord
+    - ip
+    - color
+- Company
+    - suffixes
+    - companyName
+    - companySuffix
+    - catchPhrase
+    - bs
+- Image
+    - avatar
+    - imageUrl
+    - abstractImage
+    - animals
+    - business
+    - cats
+    - city
+    - food
+    - nightlife
+    - fashion
+    - people
+    - nature
+    - sports
+    - technics
+    - transport
+- Lorem
+    - words
+    - sentence
+    - sentences
+    - paragraph
+    - paragraphs
+- Helpers
+    - randomNumber
+    - randomize
+    - slugify
+    - replaceSymbolWithNumber
+    - shuffle
+    - createCard
+    - userCard
+- Tree
+    - clone
+    - createTree
+- Date
+    - past
+    - future
+    - between
+    - recent
+- Random
+    - number
+    - array_element
+    - city_prefix
+    - city_suffix
+    - street_suffix
+    - br_state
+    - br_state_abbr
+    - us_state
+    - us_state_abbr
+    - uk_country
+    - gender
+    - first_name
+    - first_name_female
+    - first_name_male
+    - last_name
+    - name_prefix
+    - name_suffix
+    - catch_phrase_adjective
+    - catch_phrase_descriptor
+    - catch_phrase_noun
+    - bs_adjective
+    - bs_noun
+    - phone_formats
+    - domain_suffix
+    - avatar_uri
+- Definitiions
+    - first_name_male
+    - first_name_female
+    - first_name
+    - last_name
+    - name_prefix
+    - name_suffix
+    - br_state
+    - br_state_abbr
+    - us_state
+    - us_state_abbr
+    - city_prefix
+    - city_suffix
+    - street_suffix
+    - uk_county
+    - uk_country
+    - catch_phrase_adjective
+    - catch_phrase_descriptor
+    - catch_phrase_noun
+    - bs_adjective
+    - bs_buzz
+    - bs_noun
+    - domain_suffix
+    - lorem
+    - phone_formats
+    - avatar_uri
+
+## Future API
+
+- Vitals
+    - bmi
+    - bmi_normal
+    - bmi_high
+    - bmi_low
+    - systolic
+    - systolic_normal
+    - systolic_high
+    - systolic_low
+    - diastolic
+    - diastolic_normal
+    - diastolic_high
+    - diastolic_low
+    - bp
+    - bp_normal
+    - bp_high
+    - bp_low
+    - height
+    - weight
+    - age
+- Allergies
+    - allergy
+    - allergy_severity
+    - allergy_status
+- Problems
+    - problem
+    - problem_rare
+    - problem_status
+- Procedures
+    - procedure
+- Vaccines
+    - vaccine
+    - vaccine_status
+- Insurance
+    - insurance_company
+    - insurance_company_foreign
+    - policy_number
+    - group_number
+
 ## Tests
        npm install .
        make test
